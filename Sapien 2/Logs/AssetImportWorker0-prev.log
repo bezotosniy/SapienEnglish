@@ -1,0 +1,989 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'ru' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UnityProjects\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/Work/SapienWorkRep/Sapien
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57790
+Successfully changed project path to: D:/UnityProjects/Work/SapienWorkRep/Sapien
+D:/UnityProjects/Work/SapienWorkRep/Sapien
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 679.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/UnityProjects/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/Work/SapienWorkRep/Sapien/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.5167
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/UnityProjects/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityProjects/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityProjects/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityProjects/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001136 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 380.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.821 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.031217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 352.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.56 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3252.
+Total: 2.882500 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.100000 ms  DeleteObjects: 0.190600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/Battle/Canvas.controller
+  artifactKey: Guid(4b273ea4e97da254faaf6abdb968385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Battle/Canvas.controller using Guid(4b273ea4e97da254faaf6abdb968385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671c0e5ca4531e90a4ba6186498d40c0') in 0.040807 seconds
+  Import took 0.446243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000933 seconds.
+  path: Assets/Animations/CharacterAnim/Battle/Camera/Main Camera (1).controller
+  artifactKey: Guid(fb9b6b97ee05e0d46aa13077a61461f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/Battle/Camera/Main Camera (1).controller using Guid(fb9b6b97ee05e0d46aa13077a61461f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdc08273e00a29960ac1ef7e9fc836f') in 0.008651 seconds
+  Import took 0.560239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.447995 seconds.
+  path: Assets/Animations/CharacterAnim/Battle/Camera/EnterInBattleScene.anim
+  artifactKey: Guid(2b2c3fefe3cd58245a9a6559a309bf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/Battle/Camera/EnterInBattleScene.anim using Guid(2b2c3fefe3cd58245a9a6559a309bf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a164229e5b09e857bb00553ca43fd08') in 0.004062 seconds
+  Import took 0.772283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.921457 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad.prefab
+  artifactKey: Guid(c2b259805063b4b7aa24c8415f0afb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad.prefab using Guid(c2b259805063b4b7aa24c8415f0afb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47a77bdbd40eec18f66add6c528dc0f') in 0.568118 seconds
+  Import took 0.608311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-ramps.fbx
+  artifactKey: Guid(101a38717dcd4444eac9e65b22f9b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-ramps.fbx using Guid(101a38717dcd4444eac9e65b22f9b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76b44b6ec1fb797606d1ff11ef614e1') in 0.094541 seconds
+  Import took 0.135397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-ramp.prefab
+  artifactKey: Guid(33cec8008ac666e428193cf9fd628b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-ramp.prefab using Guid(33cec8008ac666e428193cf9fd628b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb212da0fbca3e4ffe121befdfacc2c') in 0.133022 seconds
+  Import took 0.187204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Props_M/mainroad-sign-green.fbx
+  artifactKey: Guid(c20f3dd35f0e891479cf5fc926bc798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Props_M/mainroad-sign-green.fbx using Guid(c20f3dd35f0e891479cf5fc926bc798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2048aa1c9b1f81e1c6591529933850e4') in 0.010348 seconds
+  Import took 0.052981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/helicopter.fbx
+  artifactKey: Guid(0bfcb4c8d0e48544c9af80a06547e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Vehicles_M/helicopter.fbx using Guid(0bfcb4c8d0e48544c9af80a06547e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9e8f52616daddab731c8802475247c') in 0.026135 seconds
+  Import took 0.074110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/IMAGES ARCHIVE/Battle/Sapien Desing 2/icons8-mail-400.png
+  artifactKey: Guid(b1259b159795f374f95d8ef2d847ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMAGES ARCHIVE/Battle/Sapien Desing 2/icons8-mail-400.png using Guid(b1259b159795f374f95d8ef2d847ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae579f165eef031b943b147e77fe042') in 0.109241 seconds
+  Import took 0.136813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-curve.prefab
+  artifactKey: Guid(30c7ae5e3fc212948b7308cffdc45b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-curve.prefab using Guid(30c7ae5e3fc212948b7308cffdc45b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0134dd1a9075be590c1a032d958459') in 0.008073 seconds
+  Import took 0.042223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-ramps.prefab
+  artifactKey: Guid(38d4cd2bfa545e54b85232c01bd68040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-ramps.prefab using Guid(38d4cd2bfa545e54b85232c01bd68040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c609e51c2f6119e0f681887ee515f2') in 0.009664 seconds
+  Import took 0.056203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Scenes/test_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(24acdab37d77157469a402f252c8abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/test_Profiles/Main Camera Profile.asset using Guid(24acdab37d77157469a402f252c8abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fad3f977ed65427d6f71d2cfe066dd9') in 0.014297 seconds
+  Import took 0.061526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-hill.fbx
+  artifactKey: Guid(5e719decdb5cb4f8ca0320ec740a05e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-hill.fbx using Guid(5e719decdb5cb4f8ca0320ec740a05e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca25f5cf2b70f79e043fbcc37eb1aec') in 0.009290 seconds
+  Import took 0.029210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-ramp.fbx
+  artifactKey: Guid(8e9bbbb2bd2074e479279e4e6d0beb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-ramp.fbx using Guid(8e9bbbb2bd2074e479279e4e6d0beb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0cfd8de8939ff1f46f65cc1dfc8960') in 0.010153 seconds
+  Import took 0.045360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad.prefab
+  artifactKey: Guid(29dd3e32fc6ce462e80f08ac52614678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad.prefab using Guid(29dd3e32fc6ce462e80f08ac52614678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d91c1d4ef1e87355b9fa139649c7f1d') in 0.009037 seconds
+  Import took 0.036591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-hill.prefab
+  artifactKey: Guid(f9dca89f7dd8b4ad8b9b30bee673273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-hill.prefab using Guid(f9dca89f7dd8b4ad8b9b30bee673273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd26589aacd723c6c799d9bc62cfb5') in 0.007758 seconds
+  Import took 0.050308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/mainroad-sign-green.fbx
+  artifactKey: Guid(97908cfa4a45050459dd1cc15d939763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/mainroad-sign-green.fbx using Guid(97908cfa4a45050459dd1cc15d939763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3e5e3d940a15e7f95424a55489f18e') in 0.010099 seconds
+  Import took 0.037981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-ramps.prefab
+  artifactKey: Guid(de37f2ae5ad21d843aae567e10789d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-ramps.prefab using Guid(de37f2ae5ad21d843aae567e10789d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad5406a9f1a8ecd1b443b7414166336') in 0.007640 seconds
+  Import took 0.076177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-ramps.fbx
+  artifactKey: Guid(8402434dbf4695c4ab7da5c798080672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-ramps.fbx using Guid(8402434dbf4695c4ab7da5c798080672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985cfae89f0ec1729231a0dc837707c1') in 0.009654 seconds
+  Import took 0.041018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/helicopter.fbx
+  artifactKey: Guid(35bd641d93bad104ca1607c00ed7c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/helicopter.fbx using Guid(35bd641d93bad104ca1607c00ed7c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ed1c80c9696337ca2c3aa12675d2f9') in 0.026695 seconds
+  Import took 0.046825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad.fbx
+  artifactKey: Guid(016924cc03d2f4144a5d1577da663108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad.fbx using Guid(016924cc03d2f4144a5d1577da663108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef7c12973c853b99c5b3cb86bc970d9') in 0.009602 seconds
+  Import took 0.032263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-curve.fbx
+  artifactKey: Guid(3e741c2c0a2b7de499be9d22cca4b4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-curve.fbx using Guid(3e741c2c0a2b7de499be9d22cca4b4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f521ad003919f87cddaa84d35d265047') in 0.008935 seconds
+  Import took 0.042464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-ramp.prefab
+  artifactKey: Guid(b032a0e8a24447341981a4603004fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-ramp.prefab using Guid(b032a0e8a24447341981a4603004fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d7933abe64f1bdab5ac2fbd99b44a9') in 0.007659 seconds
+  Import took 0.031308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/mail-box.fbx
+  artifactKey: Guid(2b5d764fb5ee74f3ba6f3cfbcf7e3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/mail-box.fbx using Guid(2b5d764fb5ee74f3ba6f3cfbcf7e3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64ae8646817a67f6e413e8b73598536') in 0.008932 seconds
+  Import took 0.046658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-curve.prefab
+  artifactKey: Guid(20c9ea82d6b0913418255a5b8defeaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Bridges_M/bridge-mainroad-curve.prefab using Guid(20c9ea82d6b0913418255a5b8defeaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba87422718042bc21f1b7f7c53a4365') in 0.008119 seconds
+  Import took 0.033595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-ramp.fbx
+  artifactKey: Guid(0265aa85bab93d44da992b7705929628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Bridges_T/bridge-mainroad-ramp.fbx using Guid(0265aa85bab93d44da992b7705929628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27e90d886d72234107f537fb6f73197') in 0.010115 seconds
+  Import took 0.032898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad.fbx
+  artifactKey: Guid(4051123133a3344edb8ef75efc663ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad.fbx using Guid(4051123133a3344edb8ef75efc663ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc33944eb518c912f80c31f8481e0815') in 0.009453 seconds
+  Import took 0.034286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-hill.prefab
+  artifactKey: Guid(5c0de273163f8422a87b354a978ee0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Bridges_T/bridge-mainroad-hill.prefab using Guid(5c0de273163f8422a87b354a978ee0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d9b3b641857e7505df084b60163a90') in 0.008825 seconds
+  Import took 0.035325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-curve.fbx
+  artifactKey: Guid(3e585e7e9be569e479496a3be829a06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-curve.fbx using Guid(3e585e7e9be569e479496a3be829a06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c320264f7e2b686692fb37cbd9418abb') in 0.010963 seconds
+  Import took 0.071908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Props_M/mail-box.fbx
+  artifactKey: Guid(91d9d4ca6b5b24f94a01fd14e738c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Props_M/mail-box.fbx using Guid(91d9d4ca6b5b24f94a01fd14e738c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14757b113e221f5a52fc59da0eb49736') in 0.010064 seconds
+  Import took 0.058442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-curve.fbx
+  artifactKey: Guid(3e585e7e9be569e479496a3be829a06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-curve.fbx using Guid(3e585e7e9be569e479496a3be829a06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c320264f7e2b686692fb37cbd9418abb') in 0.010379 seconds
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-hill.fbx
+  artifactKey: Guid(bb9ffdfbd67b44eb584fc74fa6a289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-hill.fbx using Guid(bb9ffdfbd67b44eb584fc74fa6a289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af493870da6ef80f16648819070e7b') in 0.010517 seconds
+  Import took 0.024222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030736 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-hill.fbx
+  artifactKey: Guid(bb9ffdfbd67b44eb584fc74fa6a289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Bridges_M/bridge-mainroad-hill.fbx using Guid(bb9ffdfbd67b44eb584fc74fa6a289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af493870da6ef80f16648819070e7b') in 0.010328 seconds
+  Import took 0.017362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403462 seconds.
+  path: Assets/MODELS ARCHIVE/PolygonSpy/Models/SM_Veh_SpyCar_01.fbx
+  artifactKey: Guid(543ccdaf9e1606741a46a423f920d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/PolygonSpy/Models/SM_Veh_SpyCar_01.fbx using Guid(543ccdaf9e1606741a46a423f920d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffbe8429ebbbbf736beee6d7cff864d') in 0.297450 seconds
+  Import took 0.329602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-curve.fbx
+  artifactKey: Guid(32e2e56d13543422ab8c0220cff25a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-curve.fbx using Guid(32e2e56d13543422ab8c0220cff25a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cf76b989b485cec031a60d9548176e') in 0.009770 seconds
+  Import took 0.040942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-curve.prefab
+  artifactKey: Guid(cc8321d76764142a0adf00468a1a68dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-curve.prefab using Guid(cc8321d76764142a0adf00468a1a68dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1750328933991c05e1af8ecbcf5ba6c') in 0.047619 seconds
+  Import took 0.211834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-intersection-t.fbx
+  artifactKey: Guid(ea4baea5e2c3c471793f976dded7969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-intersection-t.fbx using Guid(ea4baea5e2c3c471793f976dded7969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da992bc9b88fe6a8fe079a57add6a8f4') in 0.009405 seconds
+  Import took 0.039634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-road-intersection.prefab
+  artifactKey: Guid(7509e6d720c436e469746692393cd95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-road-intersection.prefab using Guid(7509e6d720c436e469746692393cd95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f51bcc340a7f27ca57823d838fae6a') in 0.008111 seconds
+  Import took 0.047522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-curve.prefab
+  artifactKey: Guid(3ba35bd1653e346d1a0fbd09c1ece60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-curve.prefab using Guid(3ba35bd1653e346d1a0fbd09c1ece60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81574415c79087cb9ab542ad5e201b5d') in 0.007918 seconds
+  Import took 0.018420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-intersection.fbx
+  artifactKey: Guid(791ca2962746748f89ba375ca6c08c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-intersection.fbx using Guid(791ca2962746748f89ba375ca6c08c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e16745b6aeb98d67e47755e29e2684') in 0.010514 seconds
+  Import took 0.044588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Tunnels_T/tile-mainroad-tunnel-curve.fbx
+  artifactKey: Guid(edd8fdcab8f9c5a41be4cf3aff5d20ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Tunnels_T/tile-mainroad-tunnel-curve.fbx using Guid(edd8fdcab8f9c5a41be4cf3aff5d20ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f1995bb9eb8c62bd0af450c6510426') in 0.009932 seconds
+  Import took 0.051664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-intersection-t.prefab
+  artifactKey: Guid(79083873821eea9468fa981568eee21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-intersection-t.prefab using Guid(79083873821eea9468fa981568eee21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccafe1c5055de0351b87ac70ad1089e8') in 0.008588 seconds
+  Import took 0.092306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-curve.fbx
+  artifactKey: Guid(060c4500940ee4fe3b397a7868452928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-curve.fbx using Guid(060c4500940ee4fe3b397a7868452928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cce2d78aef03ff749bae13ddc1f152') in 0.009114 seconds
+  Import took 0.057343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-intersection.fbx
+  artifactKey: Guid(c9de680eb6862464db0e79c744157d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-intersection.fbx using Guid(c9de680eb6862464db0e79c744157d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f81af4e97b44aae4365ab49d2055144') in 0.009896 seconds
+  Import took 0.034997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-road-intersection.fbx
+  artifactKey: Guid(56445f09185f50c448e06f457201edc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Tiles_M/Roads_M/tile-mainroad-road-intersection.fbx using Guid(56445f09185f50c448e06f457201edc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62d90a330cc6c0e311fc816452e2456') in 0.009887 seconds
+  Import took 0.032507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-road-intersection.prefab
+  artifactKey: Guid(ef9a0689da265d148b2823816dabf53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-road-intersection.prefab using Guid(ef9a0689da265d148b2823816dabf53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b457601a79b1eafc95ab6ead13fb6ab1') in 0.008907 seconds
+  Import took 0.048711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-road-intersection.fbx
+  artifactKey: Guid(5dea1c2528c6db049801265f3539d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-road-intersection.fbx using Guid(5dea1c2528c6db049801265f3539d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42e0c670799f0b774c3ea6ae305abc7') in 0.010023 seconds
+  Import took 0.017906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-intersection-t.prefab
+  artifactKey: Guid(304fd0617b5c443c9835a7121efa80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-intersection-t.prefab using Guid(304fd0617b5c443c9835a7121efa80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23041c1d18b62c1d40458f02568b25af') in 0.010351 seconds
+  Import took 0.038073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-intersection.prefab
+  artifactKey: Guid(cb83295557e044daab2ba7069b78f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/Roads_T/tile-mainroad-intersection.prefab using Guid(cb83295557e044daab2ba7069b78f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f3a953f2656b07d2fe3c1000d0985f') in 0.008888 seconds
+  Import took 0.052327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-intersection.prefab
+  artifactKey: Guid(1c2c97d44483d40bb944f369f60436c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Tiles_M/Roads_M/tile-mainroad-intersection.prefab using Guid(1c2c97d44483d40bb944f369f60436c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35bda390b78d8f4dee2e9b445c6fa34') in 0.008039 seconds
+  Import took 0.047872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-intersection-t.fbx
+  artifactKey: Guid(94af0e3d40b5846f08d4c5580932cfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS ARCHIVE/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Tiles_T/Roads_T/tile-mainroad-intersection-t.fbx using Guid(94af0e3d40b5846f08d4c5580932cfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb94d7f4859663dde14273d7c49156e') in 0.010583 seconds
+  Import took 0.056511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.431378 seconds.
+  path: Assets/Animations/CharacterAnim/Battle/Camera/FinishScene.anim
+  artifactKey: Guid(5f4cbf6e34c78ab4db14f510570e3c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/Battle/Camera/FinishScene.anim using Guid(5f4cbf6e34c78ab4db14f510570e3c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b1760d09a828c5a93749d6e1bf708') in 0.002280 seconds
+  Import took 0.136410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.188134 seconds.
+  path: Assets/Fonts/20705.otf
+  artifactKey: Guid(55fc92eb6d8c8ab438c078123804e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/20705.otf using Guid(55fc92eb6d8c8ab438c078123804e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626287b17143aa6357333208a7f218ba') in 0.205668 seconds
+  Import took 0.232654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(1f285a8f8cce7554a914fb20725fb513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-MediumItalic.ttf using Guid(1f285a8f8cce7554a914fb20725fb513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0cef54bb6ea704ae8ba9d70f7c4d9a') in 0.053548 seconds
+  Import took 0.154965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Black.ttf
+  artifactKey: Guid(7e51b19c571492445ae59e36c7ef2e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Black.ttf using Guid(7e51b19c571492445ae59e36c7ef2e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942dcbf594e5df211e31911db01310e5') in 0.051694 seconds
+  Import took 0.058773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Bold.ttf
+  artifactKey: Guid(3163981eb7eca9749823c59fee85ff53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Bold.ttf using Guid(3163981eb7eca9749823c59fee85ff53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229fa251fb5c0c23fdc3dd16953301c1') in 0.008149 seconds
+  Import took 0.058334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+  artifactKey: Guid(c93f0835d79828b47afdd6675258255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf using Guid(c93f0835d79828b47afdd6675258255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf6b9d72cf258e38bb6fed046e8225b') in 0.027691 seconds
+  Import took 0.058783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/ASSETS ARCHIVE/FrostweepGames/_Generic/Content/PLBardamu-Lite.ttf
+  artifactKey: Guid(8ba73066bbd257346af65a3a4dacddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSETS ARCHIVE/FrostweepGames/_Generic/Content/PLBardamu-Lite.ttf using Guid(8ba73066bbd257346af65a3a4dacddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41a131b3f5b661655b7324963cd30f4') in 0.008091 seconds
+  Import took 0.055706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf
+  artifactKey: Guid(02481c8afd9f4164d86cd145c0c54a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf using Guid(02481c8afd9f4164d86cd145c0c54a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797bd9ca10e85d469e85baebc39325f4') in 0.010531 seconds
+  Import took 0.041825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.ttf
+  artifactKey: Guid(4160803379bb5ff45b95f03c5951ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.ttf using Guid(4160803379bb5ff45b95f03c5951ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366031bb19f2e2f034044e4b80540261') in 0.033574 seconds
+  Import took 0.083853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf
+  artifactKey: Guid(02481c8afd9f4164d86cd145c0c54a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf using Guid(02481c8afd9f4164d86cd145c0c54a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797bd9ca10e85d469e85baebc39325f4') in 0.007913 seconds
+  Import took 0.013058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-LightItalic.ttf
+  artifactKey: Guid(43e28fd63ac4fd040ba37d2d970322d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-LightItalic.ttf using Guid(43e28fd63ac4fd040ba37d2d970322d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a961e74ed11153972a3c248bb52684') in 0.033397 seconds
+  Import took 0.060658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(1b456b484995b9b4db7ac91869bbbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-BoldItalic.ttf using Guid(1b456b484995b9b4db7ac91869bbbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb56369a6b033c0131fc4ed5540bc8e') in 0.029845 seconds
+  Import took 0.061009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Thin.ttf
+  artifactKey: Guid(b43b66798213b5d43a690823c6f3e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Thin.ttf using Guid(b43b66798213b5d43a690823c6f3e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36df4003c83b41b055047088d2aeb5a0') in 0.008527 seconds
+  Import took 0.018237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Fonts/20705.otf
+  artifactKey: Guid(55fc92eb6d8c8ab438c078123804e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/20705.otf using Guid(55fc92eb6d8c8ab438c078123804e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626287b17143aa6357333208a7f218ba') in 0.008537 seconds
+  Import took 0.014272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf
+  artifactKey: Guid(e47718f7f5085d144aa9a8201a5477bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf using Guid(e47718f7f5085d144aa9a8201a5477bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bccd3355ccac49419379ea48053781b') in 0.011951 seconds
+  Import took 0.082070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf
+  artifactKey: Guid(09cb59be33ff18045abe4a87faadb45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf using Guid(09cb59be33ff18045abe4a87faadb45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4873a75d73b6be59be67c3d405b2007d') in 0.026667 seconds
+  Import took 0.075273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-SemiBold.ttf
+  artifactKey: Guid(91af7b09fe4468a4d951777bfd627c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-SemiBold.ttf using Guid(91af7b09fe4468a4d951777bfd627c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450e2b82c1c8110263251efc71a47248') in 0.008142 seconds
+  Import took 0.039407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Regular.ttf
+  artifactKey: Guid(df20cfbafc168f046b8cf81b48da4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Regular.ttf using Guid(df20cfbafc168f046b8cf81b48da4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b032175c59cb60bc8a60028caf9a8b1') in 0.044815 seconds
+  Import took 0.076323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Fonts/Pokechu/Pokechu ITALIC DEMO.otf
+  artifactKey: Guid(8e0f4df965990204cbac431c45aacb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pokechu/Pokechu ITALIC DEMO.otf using Guid(8e0f4df965990204cbac431c45aacb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a307f12b73acc3e98f8470c7f47c3d7') in 0.008038 seconds
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Light.ttf
+  artifactKey: Guid(a9c14a6f19ebce84a91619cb0b1c114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Light.ttf using Guid(a9c14a6f19ebce84a91619cb0b1c114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6648c30938d30fda7ff2274dc15740') in 0.010771 seconds
+  Import took 0.045290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ThinItalic.ttf
+  artifactKey: Guid(5133371c5fed38848ab14c396a3edecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-ThinItalic.ttf using Guid(5133371c5fed38848ab14c396a3edecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4152efc5db528908f5ac89be13603445') in 0.035674 seconds
+  Import took 0.077579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Italic.ttf
+  artifactKey: Guid(b1eadcce3a7ff764780c77f89b765183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Italic.ttf using Guid(b1eadcce3a7ff764780c77f89b765183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac02115fbb0f66739221bff560fcb08') in 0.034983 seconds
+  Import took 0.079103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ExtraLight.ttf
+  artifactKey: Guid(cc954c8beca4e934f9ecbf2a784ee617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-ExtraLight.ttf using Guid(cc954c8beca4e934f9ecbf2a784ee617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ee144da4eded69997472c5ebf2adde') in 0.038101 seconds
+  Import took 0.065249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Medium.ttf
+  artifactKey: Guid(87a9f77a1598e4f4fb11a5b2cb6e891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Medium.ttf using Guid(87a9f77a1598e4f4fb11a5b2cb6e891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f08cef3b48084285c06de061d20e22f') in 0.008787 seconds
+  Import took 0.025841 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3342.
+Total: 2.865800 ms (FindLiveObjects: 0.691200 ms CreateObjectMapping: 0.123900 ms MarkObjects: 1.927500 ms  DeleteObjects: 0.121900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3345.
+Total: 5.789200 ms (FindLiveObjects: 0.669100 ms CreateObjectMapping: 0.368500 ms MarkObjects: 4.455900 ms  DeleteObjects: 0.292800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3348.
+Total: 3.840700 ms (FindLiveObjects: 0.720100 ms CreateObjectMapping: 0.219100 ms MarkObjects: 2.715400 ms  DeleteObjects: 0.183900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 11.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.427 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3351.
+Total: 3.974100 ms (FindLiveObjects: 0.511900 ms CreateObjectMapping: 0.178500 ms MarkObjects: 3.107300 ms  DeleteObjects: 0.175100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3354.
+Total: 3.589600 ms (FindLiveObjects: 0.708500 ms CreateObjectMapping: 0.315900 ms MarkObjects: 2.399800 ms  DeleteObjects: 0.163700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3357.
+Total: 2.638200 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.143700 ms MarkObjects: 1.955400 ms  DeleteObjects: 0.151600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3360.
+Total: 3.039500 ms (FindLiveObjects: 0.473300 ms CreateObjectMapping: 0.181300 ms MarkObjects: 2.228500 ms  DeleteObjects: 0.154600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3363.
+Total: 3.688500 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.222700 ms MarkObjects: 2.886000 ms  DeleteObjects: 0.180100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.516 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3366.
+Total: 3.515000 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.234500 ms MarkObjects: 2.699400 ms  DeleteObjects: 0.156700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3369.
+Total: 2.821600 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.164400 ms MarkObjects: 2.162000 ms  DeleteObjects: 0.143000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3372.
+Total: 3.024400 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.273800 ms  DeleteObjects: 0.156200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2076.086090 seconds.
+  path: Assets/Animations/CharacterAnim/xbotDefeat_Idle.fbx
+  artifactKey: Guid(19efefbeff17e2f4eba8d3f0b5513826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/xbotDefeat_Idle.fbx using Guid(19efefbeff17e2f4eba8d3f0b5513826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990204b01319ba38a342cd4766756c75') in 0.036766 seconds
+  Import took 0.115941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Animations/CharacterAnim/xbotVictory_Idle.fbx
+  artifactKey: Guid(ca8aae37f4fe4254d9571216d6b1c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/xbotVictory_Idle.fbx using Guid(ca8aae37f4fe4254d9571216d6b1c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5403de30e7b1fc1f5f5fa90148e83c') in 0.005007 seconds
+  Import took 0.089478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.461228 seconds.
+  path: Assets/Animations/CharacterAnim/xbotDefeat_Idle.fbx
+  artifactKey: Guid(19efefbeff17e2f4eba8d3f0b5513826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/xbotDefeat_Idle.fbx using Guid(19efefbeff17e2f4eba8d3f0b5513826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2e2878e7e1f998b2675ba5c21a601a') in 0.009711 seconds
+  Import took 0.134920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Animations/CharacterAnim/xbotVictory_Idle.fbx
+  artifactKey: Guid(ca8aae37f4fe4254d9571216d6b1c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/xbotVictory_Idle.fbx using Guid(ca8aae37f4fe4254d9571216d6b1c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a77af18f2ec147b67eda29c5c35b316') in 0.009337 seconds
+  Import took 0.063314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.322710 seconds.
+  path: Assets/Animations/CharacterAnim/Battle/BattlePlayer.controller
+  artifactKey: Guid(ef322e8c049724148ba91bb44b8f1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/Battle/BattlePlayer.controller using Guid(ef322e8c049724148ba91bb44b8f1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e885cb1a25b9367a6a4580e6a74222') in 0.007063 seconds
+  Import took 1.694892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.983130 seconds.
+  path: Assets/Animations/CharacterAnim/MovingController.controller
+  artifactKey: Guid(1029a287b0033f34aabf8ec926914d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterAnim/MovingController.controller using Guid(1029a287b0033f34aabf8ec926914d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7ca5e4eba448dba7c0b72a723669c5') in 0.032018 seconds
+  Import took 0.132473 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
